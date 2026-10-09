@@ -5,5 +5,5 @@
 <label>Username<input name="username" required value="<?= esc(old('username')) ?>"></label>
 <label>Password<input type="password" name="password" required></label>
 <button class="button" type="submit">Log in</button>
-</form><p class="muted">Demo username: <strong>marco.deleon</strong></p></section>
+</form><p class="muted">Demo username: <strong>marco.deleon</strong><br>Demo password: <strong>Northstar123!</strong></p></section>
 <?= $this->endSection() ?>
