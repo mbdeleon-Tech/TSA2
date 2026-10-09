@@ -6,11 +6,13 @@
 
 ## GitHub repository
 
-To be added after publishing.
+https://github.com/mbdeleon-Tech/TSA2
 
 ## Hosted working website
 
-To be added after publishing.
+https://tsa2-deleon-tc33.infinityfreeapp.com/
+
+The InfinityFree account and database are provisioned under the separate TSA2 host name. Final browser verification remains required after the hosting runtime configuration is corrected.
 
 ## Included evidence
 
