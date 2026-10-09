@@ -1,0 +1,7 @@
+<?= $this->extend('templates/main') ?>
+
+<?= $this->section('content') ?>
+<section class="page-hero shell"><p class="eyebrow">About the project</p><h1>A focused workspace for daily tasks.</h1><p>Tasks for Today is a small database-backed management system created to demonstrate CodeIgniter 4 models, controllers, filtered queries, and multiple views over one shared data layer.</p></section>
+<section class="section shell about-grid"><div><p class="eyebrow">How it works</p><h2>A simple MVC flow</h2><p class="body-copy">Each URL is matched by a route. A controller calls a model to retrieve the required records, then passes those records to a view. The view renders the filtered dashboard, full list, profile, or static information page.</p></div><ol class="process-list"><li><span>01</span><div><h3>Route</h3><p>Connects a URL such as <code>/tasks</code> to the correct controller method.</p></div></li><li><span>02</span><div><h3>Model</h3><p>Uses Query Builder to filter today’s tasks or order every stored task by date.</p></div></li><li><span>03</span><div><h3>View</h3><p>Loops through database records with <code>foreach</code> and presents the requested page.</p></div></li></ol></section>
+<section class="section shell values-grid"><article><strong>Framework</strong><p>CodeIgniter 4</p></article><article><strong>Pattern</strong><p>Model View Controller</p></article><article><strong>Data source</strong><p>MySQL tables</p></article><article><strong>Developer</strong><p>Marco De Leon TC33</p></article></section>
+<?= $this->endSection() ?>
